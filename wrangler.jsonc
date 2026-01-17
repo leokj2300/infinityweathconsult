@@ -2,6 +2,7 @@
   "name": "infinityweathconsult",
   "compatibility_date": "2025-01-17",
   "assets": {
-    "not_found_handling": "single-page-application"
+    "not_found_handling": "single-page-application",
+    "directory": "./build"
   }
 }
