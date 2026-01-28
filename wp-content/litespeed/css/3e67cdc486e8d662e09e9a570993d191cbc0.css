@@ -54,7 +54,7 @@
   --jmm-sub-menu-bottom-right-radius: 10px;
   --jmm-sub-menu-bottom-left-radius: 10px;
   --jmm-top-item-icon-color: #fff;
-  --jmm-top-item-title-color: #fff;
+  --jmm-top-item-title-color: #000;
   --jmm-top-item-dropdown-icon-color: #fff;
   --jmm-top-hover-item-icon-color: var(--e-global-color-secondary);
   --jmm-top-hover-item-title-color: var(--e-global-color-secondary);
@@ -365,11 +365,12 @@
   transition: min-height 1s ease !important;
 }
 .logo img {
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
     transition: all 0.5s ease;
     position: absolute;
-    top: -50px;
+    /* top: -50px; */
+	top: 0;
 }
 .elementor-sticky--effects .logo img {
   max-width: 120px;
